@@ -22,7 +22,6 @@ return new class extends Migration
             $table->foreign('site_id')
                     ->references('id')
                     ->on('sites');
-
         });
     }
 
